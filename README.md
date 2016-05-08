@@ -12,22 +12,20 @@ Then creates top-level symlinks for all modules, so they can be imported.
 
 ## Installation
 
-chmod 755 pyckage.py
-
-ln -s "pyckage.py" /place/on/path
+    chmod 755 pyckage.py
+    ln -s "pyckage.py" /place/on/path
 
 ## Use
 
-cd $PYCKAGEHOME/test
+    cd $PYCKAGEHOME/test
+    pyckage
+    cd build
+    ./main
 
-pyckage
+## To do
 
-cd build
-
-./main
+- [ ] Upgrade dependencies with -u flag.
 
 ## Acknowledgements
 
-Inspired by chadmill3r:
-
-https://www.reddit.com/r/Python/comments/4if7wj/what_do_you_think_is_more_difficult_in_python/d2xni0e
+Inspired by [chadmill3r](https://www.reddit.com/r/Python/comments/4if7wj/what_do_you_think_is_more_difficult_in_python/d2xni0e)
