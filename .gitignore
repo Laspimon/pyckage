@@ -1,3 +1,6 @@
 __pycache__
 *.swp
 .DS_Store
+*/.pyckage
+test/build
+test/django
