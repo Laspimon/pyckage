@@ -10,6 +10,16 @@ This requires the entry file to be named \_\_main\_\_.py.
 Downloads all dependencies from requirements.txt, and places them in .pyckage.
 Then creates top-level symlinks for all modules, so they can be imported.
 
+## Installation
+chmod 755 pyckage.py
+ln -s "pyckage.py" /place/on/path
+
+## Use
+cd $PYCKAGEHOME/test
+pyckage
+cd build
+./main
+
 ## Acknowledgements
 
 Inspired by chadmill3r:
